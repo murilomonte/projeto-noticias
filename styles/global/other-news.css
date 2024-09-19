@@ -20,3 +20,7 @@
 .other-news-item a:hover {
     text-decoration: underline;
 }
+
+.other-news {
+    flex: 3 3 300px;
+}

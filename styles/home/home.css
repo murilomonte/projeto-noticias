@@ -62,11 +62,6 @@
 .news-item-date {
     color: var(--date);
 }
-
-.other-news {
-    flex: 3 3 300px;
-}
-
 .button {
     background-color: var(--card);
     padding: 10px 15px;
