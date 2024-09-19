@@ -1,0 +1,22 @@
+.other-news-item {
+    background-color: var(--card);
+    color: var(--text);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: .9rem;
+    margin-bottom: 10px;
+}
+
+.other-news-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.other-news-image {
+    width: 100px;
+    height: 100px;
+}
+
+.other-news-item a:hover {
+    text-decoration: underline;
+}

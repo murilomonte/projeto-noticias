@@ -1,0 +1,15 @@
+/* Global */
+@import "global/global.css";
+@import "global/header.css";
+@import "global/footer.css";
+@import "global/other-news.css";
+
+/* Utility */
+@import "utility/colors.css";
+@import "utility/typography.css";
+
+/* News */
+@import "news/news.css";
+
+/* Home */
+@import "home/home.css";

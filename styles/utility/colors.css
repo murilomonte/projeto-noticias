@@ -1,0 +1,41 @@
+html.default-mode {
+    /* Dark */
+    --background: #121212;
+    --text: #F5F5F5;
+    --button: #242424;
+    --card: var(--button);
+    --date: #B3B3B3;
+    --hover: #363636;
+}
+
+html.alternative-mode {
+    /* Light */
+    --background: #F5F5F5;
+    --text: #121212;
+    --button: #FFFFFF;
+    --card: var(--button);
+    --date: #B3B3B3;
+    --hover: #E3E3E3;
+}
+
+@media (prefers-color-scheme: light) {
+    html.alternative-mode {
+        /* Dark */
+        --background: #121212;
+        --text: #F5F5F5;
+        --button: #242424;
+        --card: var(--button);
+        --date: #B3B3B3;
+        --hover: #363636;
+    }
+
+    html.default-mode {
+        /* Light */
+        --background: #F5F5F5;
+        --text: #121212;
+        --button: #FFFFFF;
+        --card: var(--button);
+        --date: #B3B3B3;
+        --hover: #E3E3E3;
+    }
+}
